@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Urvashi Mistry\Projects\R&amp;D\QIT WMS Projects\WMS UI API\WMS UI API\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-09-25T06:40:48.1014346Z;True|2023-09-23T13:55:35.9811301+05:30;True|2023-09-23T12:22:43.7243200+05:30;True|2023-09-23T11:53:28.4383422+05:30;True|2023-09-23T11:45:16.6613744+05:30;True|2023-09-21T11:44:10.0544235+05:30;True|2023-09-21T11:41:37.1086066+05:30;True|2023-09-20T17:25:47.0348695+05:30;True|2023-09-20T15:08:33.9082672+05:30;True|2023-09-19T09:47:12.9717497+05:30;True|2023-09-15T17:30:56.2790866+05:30;True|2022-12-13T16:03:55.3764668+05:30;True|2022-12-10T16:09:49.4223397+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

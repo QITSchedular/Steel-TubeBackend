@@ -1,0 +1,158 @@
+2024-11-09 12:50:14.6603|0|DEBUG|ST_Production.Program|NLogeer initilized in 'Main' 
+2024-11-09 12:50:15.3733|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2024-11-09 12:50:15.4162|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Urvashi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-11-09 12:50:15.4438|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Urvashi\AppData\Local\ASP.NET\DataProtection-Keys\key-4b898d6b-f039-4bb0-add7-650290c3c6a5.xml'. 
+2024-11-09 12:50:15.4438|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Urvashi\AppData\Local\ASP.NET\DataProtection-Keys\key-65af532d-5669-4e29-b7a6-9b3ef2f17817.xml'. 
+2024-11-09 12:50:15.4438|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Urvashi\AppData\Local\ASP.NET\DataProtection-Keys\key-af5f82ec-4fe0-4324-96f8-57e2245fdd74.xml'. 
+2024-11-09 12:50:15.4544|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {4b898d6b-f039-4bb0-add7-650290c3c6a5}. 
+2024-11-09 12:50:15.4544|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {65af532d-5669-4e29-b7a6-9b3ef2f17817}. 
+2024-11-09 12:50:15.4544|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {af5f82ec-4fe0-4324-96f8-57e2245fdd74}. 
+2024-11-09 12:50:15.4663|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {65af532d-5669-4e29-b7a6-9b3ef2f17817} with expiration date 2024-12-30 10:22:18Z as default key. 
+2024-11-09 12:50:15.4663|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-11-09 12:50:15.4663|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2024-11-09 12:50:15.4663|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-11-09 12:50:15.4663|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-11-09 12:50:15.4663|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-11-09 12:50:15.4854|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {65af532d-5669-4e29-b7a6-9b3ef2f17817} as the default key. 
+2024-11-09 12:50:15.4854|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {65af532d-5669-4e29-b7a6-9b3ef2f17817} was loaded during application startup. 
+2024-11-09 12:50:15.5981|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-11-09 12:50:15.6885|0|DEBUG|Microsoft.AspNetCore.SignalR.Internal.DefaultHubProtocolResolver|Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol. 
+2024-11-09 12:50:15.7282|0|TRACE|Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher|'NotificationHub' hub method 'NewEntryAdded' is bound. 
+2024-11-09 12:50:15.8228|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:6084 
+2024-11-09 12:50:15.8551|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ST_Production 
+2024-11-09 12:50:15.8551|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-11-09 12:50:15.8551|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-11-09 12:50:15.8551|0|TRACE|Microsoft.AspNetCore.Http.Connections.Internal.HttpConnectionManager|Starting connection heartbeat. 
+2024-11-09 12:50:15.8551|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-11-09 12:50:15.8551|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-11-09 12:50:15.8551|0|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Rani\API Projects\ST_Production\ST_Production 
+2024-11-09 12:50:15.8551|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2024-11-09 12:50:16.2053|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA469" accepted. 
+2024-11-09 12:50:16.2053|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA468" accepted. 
+2024-11-09 12:50:16.2053|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA469" started. 
+2024-11-09 12:50:16.2053|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA468" started. 
+2024-11-09 12:50:16.3931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" accepted. 
+2024-11-09 12:50:16.3931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" started. 
+2024-11-09 12:50:16.3931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46B" accepted. 
+2024-11-09 12:50:16.3931|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46B" started. 
+2024-11-09 12:50:16.4413|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-11-09 12:50:16.5934|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2024-11-09 12:50:16.5934|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:16.7005|0|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-09 12:50:16.7005|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-09 12:50:16.7289|0|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-09 12:50:16.7289|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-09 12:50:16.7289|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" completed keep alive response. 
+2024-11-09 12:50:16.7289|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 295.8132ms 
+2024-11-09 12:50:16.7289|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-11-09 12:50:16.7548|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-11-09 12:50:16.7548|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" completed keep alive response. 
+2024-11-09 12:50:16.7548|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11995 application/javascript;+charset=utf-8 3.9347ms 
+2024-11-09 12:50:16.8216|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46B" completed keep alive response. 
+2024-11-09 12:50:16.8216|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 87.6463ms 
+2024-11-09 12:50:16.8908|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-11-09 12:50:16.8908|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:16.9138|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - 
+2024-11-09 12:50:16.9138|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:16.9178|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-11-09 12:50:16.9178|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-11-09 12:50:16.9178|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" completed keep alive response. 
+2024-11-09 12:50:16.9178|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - - 200 628 image/png 8.6499ms 
+2024-11-09 12:50:17.1220|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46B" completed keep alive response. 
+2024-11-09 12:50:17.1220|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 231.1832ms 
+2024-11-09 12:50:22.5753|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/index.html - - 
+2024-11-09 12:50:22.5753|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:22.5753|0|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection. 
+2024-11-09 12:50:22.5753|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2024-11-09 12:50:22.5753|0|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection. 
+2024-11-09 12:50:22.5753|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2024-11-09 12:50:22.5753|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46B" completed keep alive response. 
+2024-11-09 12:50:22.5753|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/index.html - - - 200 - text/html;charset=utf-8 2.8854ms 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46C" accepted. 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46C" started. 
+2024-11-09 12:50:22.5904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui.css - - 
+2024-11-09 12:50:22.5904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-bundle.js - - 
+2024-11-09 12:50:22.5904|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46D" accepted. 
+2024-11-09 12:50:22.5904|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46D" started. 
+2024-11-09 12:50:22.5904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-standalone-preset.js - - 
+2024-11-09 12:50:22.5904|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:22.5904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - 
+2024-11-09 12:50:22.5904|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46E" accepted. 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46E" started. 
+2024-11-09 12:50:22.5904|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-11-09 12:50:22.5904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - 
+2024-11-09 12:50:22.5904|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-11-09 12:50:22.5904|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46D" completed keep alive response. 
+2024-11-09 12:50:22.5904|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_framework/aspnetcore-browser-refresh.js - - - 200 11995 application/javascript;+charset=utf-8 0.3731ms 
+2024-11-09 12:50:22.6186|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46E" completed keep alive response. 
+2024-11-09 12:50:22.6186|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.3100ms 
+2024-11-09 12:50:22.6200|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2024-11-09 12:50:22.6200|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2024-11-09 12:50:22.6200|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46B" completed keep alive response. 
+2024-11-09 12:50:22.6200|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46C" completed keep alive response. 
+2024-11-09 12:50:22.6200|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui.css - - - 200 143632 text/css 32.6655ms 
+2024-11-09 12:50:22.6200|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 32.5276ms 
+2024-11-09 12:50:22.6200|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2024-11-09 12:50:22.6200|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" completed keep alive response. 
+2024-11-09 12:50:22.6200|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 37.0750ms 
+2024-11-09 12:50:22.6826|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - 
+2024-11-09 12:50:22.6826|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:22.6826|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - 
+2024-11-09 12:50:22.6826|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:22.6826|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2024-11-09 12:50:22.6826|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2024-11-09 12:50:22.6826|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46E" completed keep alive response. 
+2024-11-09 12:50:22.6826|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/favicon-32x32.png - - - 200 628 image/png 0.3697ms 
+2024-11-09 12:50:22.7324|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" completed keep alive response. 
+2024-11-09 12:50:22.7324|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 49.9634ms 
+2024-11-09 12:50:28.6711|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:6084/api/Commons/PeriodIndicator - - 
+2024-11-09 12:50:28.6711|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2024-11-09 12:50:28.6711|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2024-11-09 12:50:28.6711|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /api/Commons/PeriodIndicator does not match a supported file type 
+2024-11-09 12:50:28.6711|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2024-11-09 12:50:28.7086|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Commons/PeriodIndicator' 
+2024-11-09 12:50:28.7086|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production)' with route pattern 'api/Commons/PeriodIndicator' is valid for the request path '/api/Commons/PeriodIndicator' 
+2024-11-09 12:50:28.7125|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production)' 
+2024-11-09 12:50:28.7125|0|DEBUG|ST_Production.Middlewares.ExceptionHandler|Log Initilized 
+2024-11-09 12:50:28.7779|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2024-11-09 12:50:28.7779|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production)' 
+2024-11-09 12:50:28.8055|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPeriodIndicator", controller = "Commons"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ST_Production.Models.PeriodIndicator]]] GetPeriodIndicator() on controller ST_Production.Controllers.CommonsController (ST_Production). 
+2024-11-09 12:50:28.8055|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2024-11-09 12:50:28.8055|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2024-11-09 12:50:28.8055|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-11-09 12:50:28.8055|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2024-11-09 12:50:28.8055|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-11-09 12:50:28.8071|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ST_Production.Controllers.CommonsController (ST_Production) 
+2024-11-09 12:50:29.2849|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ST_Production.Controllers.CommonsController (ST_Production) 
+2024-11-09 12:50:29.2849|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-09 12:50:29.2849|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-09 12:50:29.2849|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-11-09 12:50:29.2849|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-11-09 12:50:29.2849|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production) - Validation state: Valid 
+2024-11-09 12:50:29.3716|0|INFO|ST_Production.Controllers.CommonsController| Calling CommonsController : GetPeriodIndicator()  
+2024-11-09 12:50:29.4110|0|INFO|ST_Production.Controllers.CommonsController| CommonsController : GetPeriodIndicator() Query :  SELECT Indicator from OPID   
+2024-11-09 12:50:29.9324|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 635.7904ms. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-11-09 12:50:29.9324|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2024-11-09 12:50:29.9324|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2024-11-09 12:50:29.9324|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2024-11-09 12:50:29.9324|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2024-11-09 12:50:29.9324|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2024-11-09 12:50:29.9324|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2024-11-09 12:50:29.9324|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ST_Production.Models.PeriodIndicator, ST_Production, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-11-09 12:50:29.9324|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2024-11-09 12:50:29.9493|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production) in 1139.5941ms 
+2024-11-09 12:50:29.9493|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ST_Production.Controllers.CommonsController.GetPeriodIndicator (ST_Production)' 
+2024-11-09 12:50:29.9493|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN80HRQPA46A" completed keep alive response. 
+2024-11-09 12:50:29.9493|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:6084/api/Commons/PeriodIndicator - - - 200 - application/json;+charset=utf-8 1280.9788ms 
